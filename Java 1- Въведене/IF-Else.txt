@@ -1,0 +1,26 @@
+If-Else Statments and Switch
+if(password.length()>=6){
+			System.out.println("Your password is Correct!");
+		}
+		else
+		{
+			System.out.println("Incorect password!");
+		} 
+		Работи по същия начин като в C/C++/C#/VB
+		И тук важът NestedIf какво и във всички други езици
+		2. else if(a>b)
+		   {
+		
+		   }
+		   
+		   
+		   syso + ctrl+space+enter Директно изписва System.out.println()
+! Стрингове не се сравняват с == а само с методи .eqals
+3. Switch()
+case 1: ........... ; break;
+case 2:
+case 3:
+case 4:
+case n-1:
+case n:
+default:

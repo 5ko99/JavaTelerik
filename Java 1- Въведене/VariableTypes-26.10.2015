@@ -1,0 +1,39 @@
+Variable Types
+int count = 5
+I.Data type
+-name ; type; variable; default variable
+1.Integer Number type
+-byte
+-short
+-int
+-long
+-BigInteger няма лимит на размера
+2.Дефиниране int nummber;
+Инциализация nummber=5;
+Изход от конзолата: System.out.println(nummber)
+2.Floating-point nummber
+float 4 bytes Default value=0.0f
+double 8 bytes Default value=0.0d
+BigDecimal = decimal от C#
+Използва се като BigInteger с функции
+Деклариране на float и double
+float floatNum = 1.254f;
+double doubleNum = 1.246d;
+3.Bg decimal library 
+import java.math.BigDecimal; 
+Деклариране BigDecimal dNum = BigDecimal.valueOf(1.333);
+За да вършим действия към него с . извикваме функции
+4.boolean = true/false
+5.Char
+char ch = 'a';
+
+6.String 
+Деклариране: String text = "abc1";
+За ескейпване на двойни кавички String text="\"Hello"\ he sais";
+\n - нов ред
+\t табулация
+
+II. Прехвърляне от бройни ситеми
+D*Base^Index + ...
+Можем да лсагаме _ в числята за разделяне на тройки за по удобно
+int = 5_000_000 = 5000000

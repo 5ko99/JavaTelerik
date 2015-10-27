@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Factoriel {
+	public static long FactorielCalc (long factorel){
+		long factoriel = 1;
+		int n=1;
+		do{
+			factoriel*=n;
+					n--;
+		}
+		while(n>1);
+		return factoriel;
+	}
+	public static void main(String args[]){
+		Scanner scanner = new Scanner(System.in);
+		long n = scanner.nextLong();
+		long result = FactorielCalc(n);
+		System.out.printf("Factoriel of %d is: %d",n,result);
+		scanner.close();
+	}
+}

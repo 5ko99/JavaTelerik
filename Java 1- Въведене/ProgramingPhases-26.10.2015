@@ -1,0 +1,40 @@
+I.Въведение
+-Какво е програмирането
+-Какво е Java
+-Инструменти за Java development:
+  - Eclipse
+  -Netbeans
+  -Android Studio
+  -Intellij IDEA
+  2.Какво е програмирането
+  а)фази
+  1. Define a task/problem (изискване/спецификаци)
+  2.Plan your solution (Дизайн-не графичен)
+  3.Write Code(имплементация/implementaton)
+  4.Fix program errors(bugs)
+  5.Deployment (публикуване(издаване) на приложението)
+  II.Първа програма на Java (Eclipse)
+  1.Отиваме на File-Java Project Java new class
+  
+  import java.util.Scanner;
+  public static void main(String[] args){
+  
+  System.Out.println("Hello Java"); //Принтира теск на екрана 
+  Scanner scanner = new Scanner(System.int);
+  int scanner =scanner.nextInt();
+  }
+  
+  2.Set of usful standart classes
+  -java utils.
+  -java.io.* -всичко
+  -Documetation:
+  http://docs.oracle.com/javase/8/docs/api
+  
+  3.За андроид JavaRuntimeInvarioment Android за версията (8)
+  
+  Изтегляме JavaDevelopmentKit (JDK)
+  Добавяне
+  
+  My copmuter- setting-advancd system setings- systm variable- $path добавяме ; пътя към нашият JDK
+  Средата за програмиране Eclipse e най-добре
+  Може да добавим (ADK  и ADT)

@@ -1,0 +1,64 @@
+Console Input Output
+1.Принтиране на Кнзолата
+System.out.print(value) - Не минава на нов ред
+System.out.println(value) - Минава на нов ред
+System.Out.printf(format,value)
+System.out.println("\\n"); Така ескейпва новия ред а изписва \n а не прави нов ред
+
+Принтиране с форматиране 
+System.out.printf("Hi! My name is %s and i am %d years old",name,age) Това са плейсхолдерери но буквичката означава типа данни 
+s-string
+d-decimal
+%s-sring
+%c-char
+
+String name ="Ivan";
+int age = 20;
+System.out.printf("Hi my name is %s and I am %d years old",name,age);
+Ще изпише Hi my name is Ivan and I am 20 years old
+
+И в Java има метода .ToString
+String a = Integer.toString(age); Форматриа int до String
+System.out.printf("%.3f",d); Принтира числото с 3 знака след запетаята Така можем да ги форматираме
+System.out.printf("%5d",age); Числото в случея 5 показва колко спейса преди числото
+
+Как да изплозваме календар в java
+За да използваме календар import java.util.Calendar;
+Calendar c = Calendar.getInstance();
+ System.out.format("%tB %te, %tY%n", c, c, c); Извежда ден месец година
+
+Calendar c = Calendar.getInstance();
+
+System.out.format("%tB %te, %tY%n", c, c, c);
+System.out.format(Locale.forLanguageTag("BG"), "%tB %te, %tY%n", c, c, c);
+System.out.format(Locale.CHINA, "%tB %te, %tY%n", c, c, c);
+System.out.format("%tl:%tM %tp%n", c, c, c);
+System.out.format("%tD%n", c);
+
+Results:
+
+October 27, 2015
+Октомври 27, 2015
+十月 27, 2015
+8:23 am
+10/27/15
+
+
+2.Console Input
+Трябва да се Import-не import java.io.InputStreamReader;
+
+InputStreamReader reader = new InputStreamReader(System.in)
+int charCode = reader.read(); И ще ни даде грешка и трябва да наtisnem ctrl + 1 и да добавим нещото което ни предлага
+reader.read чете само  1 число затова за да го Cast-нем към число трябва да напшем:
+char charCode = (char)reader.read(); Да го кастнем към char
+
+Integer.ParseInt() Конвертира число
+
+Buffered Reader
+Най-добре да се използваме Buffered Reader
+BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));  Създва Buffered Reader
+		String line = reader.readLine(); Чете целия ред
+		
+		Scanner
+		Scanner scanner = new Scanner(System.in) Създава се Scanner
+		int a = scanner.nextInt(); Чете число 

@@ -1,0 +1,13 @@
+
+public class PRINTF {
+	public static void main(String[] args){
+		String name ="Ivan";
+		int age = 20;
+		System.out.printf("Hi my name is %s and I am %d years old",name,age);
+		System.out.println();
+		String a = Integer.toString(age);
+		System.out.println(age);
+		float f = 3.14f;
+		System.out.println(f);
+	}
+}

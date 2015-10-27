@@ -1,0 +1,11 @@
+
+public class String {
+
+	public static void main(String[] args){
+		String text = "Ivan";
+		String text2 = "Goshev";
+		System.out.println(text);
+		System.out.println(text2);
+		System.out.println(text+" "+text2);
+	}
+}

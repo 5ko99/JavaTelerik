@@ -1,0 +1,7 @@
+
+public class IntegerDataType {
+  public static void main(String[] args){
+	  int nummber;
+	  System.out.println(nummber);
+  }
+}

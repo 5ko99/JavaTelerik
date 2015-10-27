@@ -1,0 +1,9 @@
+import java.io.*;
+
+public class Console_Input {
+	public static void main(String[] args) throws IOException{
+		InputStreamReader reader = new InputStreamReader(System.in);
+		int charCode = reader.read();
+		System.out.println(charCode);
+	}
+}

@@ -1,0 +1,7 @@
+
+public class LiteralFuctions {
+ public static void main(String[] args){
+	 float num = 9/4.0f;
+	 System.out.println(num);
+ }
+}

@@ -6,8 +6,16 @@ public class Methods_Demo {
 		printSign(-5);
 		printSign(-5+5);
 		printSign(5);
+		printPeriod(12,1);
 	}
 	
+	static void printPeriod(int from, int to) {
+		int period = to - from - 1;
+		if(period<0) period+=12;
+		System.out.println(period);
+		
+	}
+
 	static void printLogo(){
 		System.out.println("Telerik School Academy");
 		System.out.println("Java Fundamentals");		

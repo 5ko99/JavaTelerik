@@ -10,3 +10,11 @@ printLogo();
 Параметри се подават така
 static void printLogo(int n);
 printLogo(n);
+
+string.compare
+string a = "1";
+string b = "2"
+a.compareto(str) връща int
+a==b -----> 0
+a>b-------> +
+a<b-------> -

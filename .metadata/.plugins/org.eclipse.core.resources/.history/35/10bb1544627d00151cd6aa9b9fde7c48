@@ -1,0 +1,23 @@
+
+public class Random {
+	public static void main(String[] args){
+		int min=5;
+		int max = 10;
+		random(min,max);
+		random(max);
+		random();
+	}
+
+	private static int random() {
+		return (int)(Math.random()*Integer.MAX_VALUE);
+		
+	}
+	private static int random(int max) {
+		return (int)(Math.random()*max);
+		
+	}
+	private static int random(int min,int max) {
+		return (int)(Math.random()*(max-min));		
+	}
+
+}

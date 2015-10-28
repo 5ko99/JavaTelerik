@@ -1,0 +1,12 @@
+Методи
+Методи правят кода по четим по разбираем
+Методи се кращават с Camell case
+1.Void Методи
+static void printLogo(){
+ System.out.println("HI")
+}
+Извикване на метод 
+printLogo();
+Параметри се подават така
+static void printLogo(int n);
+printLogo(n);

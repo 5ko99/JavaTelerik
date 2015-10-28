@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="PrimitiveDataTypes-First Day/src"/>
+	<classpathentry kind="src" path="SecondDay-27.10.2015/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="PrimitiveDataTypes-First Day/bin"/>
+</classpath>

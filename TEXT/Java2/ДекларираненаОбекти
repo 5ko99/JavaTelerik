@@ -1,0 +1,32 @@
+Деклариране на обекти
+
+public class dog {
+	private String name;
+	private String owner;
+	//Това показва как трябва да бъдат декларирани
+	public dog(String name, String owner){
+		this.name=name;
+		this.owner=owner;
+	}
+	public  String getName(){
+		return this.name;
+	}
+	
+	public void setName(String name){
+		this.name=name;
+	}
+}
+
+Метода с името на класа е задължителен
+public dog(String name, String owner){
+		this.name=name;
+		this.owner=owner;
+	}
+	Методите могат да се overload-ват
+public double getArea(){
+ 		return this.widht*this.widht;
+ 	}
+ 	
+ 	public double getArea(int a){
+ 		return this.widht*this.widht;
+ 	}

@@ -1,0 +1,16 @@
+Java2 First Day
+Обекти и Класове
+Packages
+
+    java.lang
+        java.lang.Object
+        java.lang.Class
+        java.lang.String
+        java.lang.Math
+    java.util
+        java.util.Random
+        java.util.ArrayList
+        java.util.HashMap
+
+		
+Всяка функция има състояния и поведения(функции)

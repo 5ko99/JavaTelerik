@@ -1,7 +1,0 @@
-
-public class IntegerDataType {
-  public static void main(String[] args){
-	  int nummber=10;
-	  System.out.println(nummber+5);
-  }
-}

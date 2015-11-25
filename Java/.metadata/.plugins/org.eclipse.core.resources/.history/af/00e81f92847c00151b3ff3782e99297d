@@ -1,9 +1,0 @@
-
-public class Console_Input_Output {
-	public static void main(String[] args){
-		String name = "Pesho";
-		int age = 19;
-		System.out.print(name);
-		
-	}
-}

@@ -1,6 +1,6 @@
 JRE_LIB=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
 eclipse.preferences.version=1
-org.eclipse.jdt.core.classpathVariable.JRE_LIB=/home/petko/jre1.8.0_65/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=/home/petko/Programs/jre1.8.0_65/lib/rt.jar
 org.eclipse.jdt.core.classpathVariable.JRE_SRC=
 org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
 org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=/home/petko/.p2/pool/plugins/org.junit_4.12.0.v201504281640/

@@ -1,0 +1,19 @@
+package animals;
+
+public class cat {
+	private  String name;
+	private  int age;
+	public int id;
+	private int i=0;
+	
+	public cat(String name,int age){
+		this.age = age;
+		this.name =name;
+		this.id =i;
+		i++;
+	}
+	
+	public  String getinfo(){
+		return this.name;
+	}
+}

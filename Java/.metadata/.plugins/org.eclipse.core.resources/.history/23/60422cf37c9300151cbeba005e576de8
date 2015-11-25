@@ -1,0 +1,10 @@
+package animals;
+
+public class program {
+	public static void main(String[] args){
+		cat a=new cat("pesho",10);
+		a.getinfo();
+		
+		
+	}
+}

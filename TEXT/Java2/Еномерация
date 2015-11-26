@@ -1,0 +1,44 @@
+Еномерация
+public enum CompassDirections {
+  NORTH, SOUTH, EAST, WEST
+}
+class EnumExample {
+  static void main(String[] args) {
+    CompassDirections direction = CompassDirections.SOUTH;
+    System.out.println(direction); // SOUTH
+
+    direction = CompassDirections.valueOf("EAST");
+    System.out.println(dir); // EAST
+  }
+}
+
+Enumerations
+Demo
+Using Enumerations
+How can Enumerations be used?
+Using Enumerations
+
+public enum Day {
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY,
+    THURSDAY, FRIDAY, SATURDAY 
+}
+
+package Enomeration;
+public class DayofWeekRun {
+	public static void main(String[] args){
+		DayofWeek myday = DayofWeek.Thuesday;
+		System.out.println(myday);
+		myday=DayofWeek.valueOf("Monday");
+		System.out.println(myday);
+	}
+}
+
+
+
+Енумерацията се използва за непроменящи се неща
+Можем да swich-ваме по енумерации
+
+И да foreach-ваме
+for(Day d: Day.values()){
+ System.out.println(String.format("Days of week %s",d))
+}

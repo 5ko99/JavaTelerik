@@ -1,4 +1,7 @@
 package Geometry;
+
+import Enomeration.IMovable;
+
 public abstract class Shape {
 	private int x;
 	private int y;

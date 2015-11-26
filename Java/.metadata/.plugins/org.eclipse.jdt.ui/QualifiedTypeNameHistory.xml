@@ -15,4 +15,5 @@
 <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable"/>
 <fullyQualifiedTypeName name="Geometry.Utility.Validator"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="Enomeration.IMovable"/>
 </qualifiedTypeNameHistroy>

@@ -13,4 +13,17 @@ Packages
         java.util.HashMap
 
 		
-Всяка функция има състояния и поведения(функции)
+Всяка функция има състояния(променливи) и поведения(функции)
+Class
+Name: Account
+Owner: Person
+:Ammount: double
+Functions
++Suspend();
++Deposit(sum:double)
++Withdraw(sum:double)
+
+1.Пакет в src new Packet и вътре си правим Java Class
+После може да го извикааме 
+import animals.dog примерно
+

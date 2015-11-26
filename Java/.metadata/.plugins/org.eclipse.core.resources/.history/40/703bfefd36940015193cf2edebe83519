@@ -1,0 +1,8 @@
+package Enomeration;
+
+public class DayofWeekRun {
+	public static void main(String[] args){
+		DayofWeek myday = DayofWeek.Thuesday;
+		System.out.println(myday);
+	}
+}

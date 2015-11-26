@@ -1,0 +1,8 @@
+package Geometry;
+
+public abstract class Shape {
+	private int x;
+	private int y;
+	
+	public abstract double getArea();
+}

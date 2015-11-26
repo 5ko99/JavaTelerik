@@ -1,0 +1,14 @@
+package Geometry;
+
+public class Square extends Rectangle {
+   private int size;
+	public Square(int x, int y,int size) {
+		super(x,y,size);
+		// TODO Auto-generated constructor stub
+	}
+	public double getArea() {
+		// TODO Auto-generated method stub
+		return size*size;
+	}
+
+}

@@ -1,0 +1,7 @@
+package Geometry;
+import Geometry.*;
+public class GeometryStartup {
+	public static void main(String[] args){
+		
+	}
+}

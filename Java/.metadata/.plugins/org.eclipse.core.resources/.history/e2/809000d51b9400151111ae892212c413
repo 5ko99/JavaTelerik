@@ -1,0 +1,17 @@
+package People;
+public class Student extends Person {
+	private String school;
+	public Student(String name,String school){
+		super(name);
+		this.school=school;
+	}
+	public String getSchool(){
+		return this.school;
+	}
+	public void SetName(String value){
+		
+			this.school=value;
+		
+	}
+	
+}

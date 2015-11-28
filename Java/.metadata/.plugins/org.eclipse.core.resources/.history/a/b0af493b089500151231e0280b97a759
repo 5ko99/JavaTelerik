@@ -1,0 +1,13 @@
+package StreamingApi;
+import java.util.*;
+import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
+public class streaming {
+	
+	public static void main(String[] args){
+		int sum = 0;
+		ArrayList<Integer> numbers= new ArrayList<Integer>();
+		numbers.stream()
+		.filter (n -> n%2==0)
+		.map(n -> String.format("%d", n));
+	}
+}

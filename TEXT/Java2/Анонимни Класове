@@ -1,0 +1,16 @@
+Анонимни Класове
+В отделен файл правим интерфейс с неимплементирани методи
+public interface IrandomProvider {
+	
+	 public   double Get(int a);
+}
+
+А в главния файл си правим променлива от този метод и иницилялизираме методите
+	IrandomProvider random = new IrandomProvider() {
+			@Override
+			public double Get(int a) {
+				// TODO Auto-generated method stub
+				return (Math.random()*a)+1;
+			}
+		};
+Правим си Jframe и от апстарт класа го стартираме

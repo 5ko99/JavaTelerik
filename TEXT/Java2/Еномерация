@@ -42,3 +42,5 @@ public class DayofWeekRun {
 for(Day d: Day.values()){
  System.out.println(String.format("Days of week %s",d))
 }
+
+ctrl+space показва всички възможности

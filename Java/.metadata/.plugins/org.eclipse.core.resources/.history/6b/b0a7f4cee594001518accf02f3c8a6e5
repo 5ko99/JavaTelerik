@@ -1,0 +1,6 @@
+
+public interface IrandomProvider {
+	 public default  int Get(){
+		 return 0;
+	 }
+}

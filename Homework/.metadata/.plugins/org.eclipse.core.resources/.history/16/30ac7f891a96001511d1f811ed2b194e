@@ -1,0 +1,35 @@
+package Triangle;
+import java.util.Scanner;
+
+public class GetSurface {
+ public static void main(String[] args){
+	 Scanner scanner = new Scanner(System.in);
+	 double result=0;
+	 int chose = scanner.nextInt();
+	 switch(chose){
+		 case 1 :
+			 double a,hA;
+			 a=scanner.nextDouble();
+			 hA=scanner.nextDouble();
+			 result=baseAndHeight.calculate(a,hA);
+			 break;
+		 case 2 : 
+			 double A,B,C;
+			 A=scanner.nextDouble();
+			 B=scanner.nextDouble();
+			 C=scanner.nextDouble();
+			 result = lengthOfEachSide.calc(A, B, C);
+			 ; break;
+		 case 3 :
+			 double a1,b1,h;
+			 a1=scanner.nextDouble();
+			 b1=scanner.nextDouble();
+			 h=scanner.nextDouble();
+			 result =lengthOfEachSide.calc(a1, b1, h);
+			 ; break;
+		 default: System.out.println("Wrong chowe"); break;
+	 }
+	 System.out.printf("Area=%scm2 \n",result);
+	 scanner.close();
+ }
+}

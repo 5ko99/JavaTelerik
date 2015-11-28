@@ -2,11 +2,11 @@
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
 		<item value="374" key="DIALOG_X_ORIGIN"/>
-		<item value="1" key="DIALOG_Y_ORIGIN"/>
+		<item value="10" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="480" key="dialogHeight"/>
-		<item value="853" key="dialogWidth"/>
+		<item value="462" key="dialogHeight"/>
+		<item value="835" key="dialogWidth"/>
 		<list key="textEntries">
 			<item value="3"/>
 		</list>
@@ -17,9 +17,9 @@
 			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textArray">
-			<item value="prefe"/>
-			<item value="pre"/>
 			<item value="pe"/>
+			<item value="pref"/>
+			<item value="pre"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">

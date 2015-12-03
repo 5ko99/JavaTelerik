@@ -1,0 +1,9 @@
+package Workdays;
+
+import java.util.Date;
+
+public class workdays {
+  public static int calc(Date date){
+	  return 0;
+  }
+}

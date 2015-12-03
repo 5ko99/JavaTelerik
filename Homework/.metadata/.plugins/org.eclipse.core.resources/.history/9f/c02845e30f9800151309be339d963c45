@@ -1,0 +1,25 @@
+package sumIntegers;
+
+public class sum {
+	
+	public static int sumOfInt(String n){
+		char c='a';
+		int pos=0;
+		String r="";
+		int sum=0;
+		for (int i = 0; i < n.length(); i++) {
+			c=n.charAt(i);
+			
+			if(c==' '){
+				for (int j = pos; j < i; j++) {
+					r+=n.charAt(j);
+				}
+				sum+=Integer.parseInt(r);
+				pos=i;
+			}
+		}
+		
+		return sum;
+	}
+	
+}

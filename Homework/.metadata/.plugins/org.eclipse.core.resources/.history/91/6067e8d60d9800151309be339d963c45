@@ -1,0 +1,9 @@
+package sumIntegers;
+
+public class sum {
+	
+	public static int sumOfInt(String n){
+		return 0;
+	}
+	
+}

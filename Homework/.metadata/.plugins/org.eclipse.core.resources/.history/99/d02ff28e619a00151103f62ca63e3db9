@@ -1,0 +1,12 @@
+package animalHierarchy;
+
+public class Tomcat extends Cat {
+
+	public Tomcat(String name,String age,String sex) {
+		setName(name);
+		setAge(age);
+		sex="m";
+		setSex(sex);
+	}
+	
+}

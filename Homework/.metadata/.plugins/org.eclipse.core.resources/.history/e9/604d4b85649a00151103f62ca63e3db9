@@ -1,0 +1,10 @@
+package animalHierarchy;
+
+public class Kitten extends Cat {
+	public Kitten(String name,int age,String sex) {
+		setName(name);
+		setAge(age);
+		sex="f";
+		setSex(sex);
+	}
+}

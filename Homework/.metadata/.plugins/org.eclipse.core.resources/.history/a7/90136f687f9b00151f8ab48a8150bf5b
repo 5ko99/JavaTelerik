@@ -1,0 +1,14 @@
+package BankAcc;
+
+import java.math.BigDecimal;
+
+import customers.Customer;
+
+public class Loan extends Bank {
+
+	public Loan(BigDecimal balance, BigDecimal interestRate, Customer customer) {
+		super(balance, interestRate, customer);
+		// TODO Auto-generated constructor stub
+	}
+	
+}

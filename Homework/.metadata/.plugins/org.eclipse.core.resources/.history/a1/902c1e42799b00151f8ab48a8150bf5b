@@ -1,0 +1,6 @@
+import BankAcc.*;
+import customers.*;
+
+public class BankStartup {
+	Companie companie = new Companie();
+}

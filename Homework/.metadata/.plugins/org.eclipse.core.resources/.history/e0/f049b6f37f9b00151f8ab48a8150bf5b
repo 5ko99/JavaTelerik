@@ -1,0 +1,22 @@
+package BankAcc;
+
+import customers.Customer;
+
+public class Deposit extends Bank {
+	
+	
+	
+	public Deposit(double balance, double interestRate, Customer customer) {
+		super(balance, interestRate, customer);
+		// TODO Auto-generated constructor stub
+	}
+
+	public  void withDraw(double sum){
+		if(sum>getBalance()){
+			balance-=sum;
+		}
+		else {
+			System.out.println("You don't have enought mony to Whith Draw");
+		}
+	}
+}

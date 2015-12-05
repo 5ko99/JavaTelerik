@@ -17,4 +17,14 @@
 <fullyQualifiedTypeName name="animalHierarchy.Animal"/>
 <fullyQualifiedTypeName name="animalHierarchy.Dog"/>
 <fullyQualifiedTypeName name="animalHierarchy.Kitten"/>
+<fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+<fullyQualifiedTypeName name="BankAcc.deposit"/>
+<fullyQualifiedTypeName name="BankAcc.Bank"/>
+<fullyQualifiedTypeName name="customers.Companie"/>
+<fullyQualifiedTypeName name="customers.Customer"/>
+<fullyQualifiedTypeName name="customers.Individual"/>
+<fullyQualifiedTypeName name="BankAcc.Deposit"/>
+<fullyQualifiedTypeName name="BankAcc.Loan"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
 </qualifiedTypeNameHistroy>

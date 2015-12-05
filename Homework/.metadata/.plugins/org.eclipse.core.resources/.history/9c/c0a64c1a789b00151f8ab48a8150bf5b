@@ -1,0 +1,5 @@
+package customers.copy;
+
+public class Companie extends Customer {
+
+}

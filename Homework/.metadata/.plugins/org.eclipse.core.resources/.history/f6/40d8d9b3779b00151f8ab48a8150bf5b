@@ -1,0 +1,10 @@
+package BankAcc;
+import java.math.*;
+
+public abstract class Bank {
+
+	private BigDecimal balance;
+	private BigDecimal interestRate;
+	
+	
+}

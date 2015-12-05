@@ -1,0 +1,3 @@
+package BankAcc;
+
+public class Loan extends Bank {}

@@ -1,0 +1,7 @@
+package customers;
+
+public  class Companie extends Customer {
+	public Companie() {
+		
+	}
+}

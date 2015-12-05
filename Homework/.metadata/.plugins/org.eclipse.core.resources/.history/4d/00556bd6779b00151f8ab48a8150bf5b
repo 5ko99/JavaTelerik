@@ -1,0 +1,45 @@
+package BankAcc;
+import java.math.*;
+import java.text.DecimalFormat;
+
+import customers.*;
+
+public abstract class Bank {
+
+	public BigDecimal balance;
+	private BigDecimal interestRate;
+	private Customer customer;
+	
+	public BigDecimal getBalance() {
+		return balance;
+	}
+	public void setBalance(BigDecimal balance) {
+		this.balance = balance;
+	}
+	public BigDecimal getInterestRate() {
+		return interestRate;
+	}
+	public void setInterestRate(BigDecimal interestRate) {
+		this.interestRate = interestRate;
+	}
+	public Customer getCustomer() {
+		return customer;
+	}
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
+	}
+	
+	public  void deposit(BigDecimal sum){
+		this.balance.add(sum);
+	}
+	
+	public BigDecimal calcInterestAmount(BigDecimal months){
+		BigDecimal interest=this.interestRate;
+		interest.multiply(months);
+		return interest;
+	}
+	
+    //Deposit accounts are allowed to deposit and with draw money.
+    //Loan and mortgage accounts can only deposit money.
+	//All accounts can calculate their interest amount for a given period (in months). In the common case its is calculated as follows: number_of_months * interest_rate.
+}

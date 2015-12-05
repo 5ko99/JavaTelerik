@@ -1,0 +1,18 @@
+package BankAcc;
+import java.math.BigDecimal;
+
+public class Deposit extends Bank {
+	
+	public Deposit() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public  void withDraw(BigDecimal sum){
+		if(sum.compareTo(getBalance())>0){
+			balance.subtract(sum);
+		}
+		else {
+			System.out.println("You don't have enought mony to Whith Draw");
+		}
+	}
+}

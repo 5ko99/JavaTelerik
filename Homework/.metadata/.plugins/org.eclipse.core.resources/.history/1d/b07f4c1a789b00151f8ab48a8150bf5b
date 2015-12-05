@@ -1,0 +1,5 @@
+package customers.copy;
+
+public class Individual extends Customer {
+
+}

@@ -1,5 +1,0 @@
-package leapyear1;
-public class year {
-	private int year;
-	
-}

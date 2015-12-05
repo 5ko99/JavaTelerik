@@ -1,0 +1,3 @@
+package customers;
+
+public  class Individual extends Customer {}

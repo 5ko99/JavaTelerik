@@ -1,6 +1,0 @@
-
-public interface IrandomProvider {
-	 public default  double Get(){
-		 return Math.random();
-	 }
-}

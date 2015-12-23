@@ -1,6 +1,0 @@
-package Enomeration;
-
-public interface IMovable {
-	 void clickMe();
-	 void changeColor();
-}

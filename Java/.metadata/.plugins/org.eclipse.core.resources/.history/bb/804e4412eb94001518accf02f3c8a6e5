@@ -1,5 +1,0 @@
-
-public interface IrandomProvider {
-	
-	 public   double Get(int a);
-}

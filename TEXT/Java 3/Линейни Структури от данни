@@ -1,0 +1,23 @@
+Линейни Структури от данни
+1.List-поредица от елементи с фиксиран или променлив размер той е раширява сам и елементите се подреждат линейно
+2.ArrayList е имплементация на List
+ArrayList<Integer> list =new ArrayList<>();
+List се разширява двойно когато го препълним затова метода list.trimToSize() отрязва list- с точен размер колкото е голям
+2.Linked List - двойно свързан списък
+LinkedList<Integer> list = new LinkedList<>();
+Има метод list.addFirst и addLast
+
+3.Stacks
+Last in first out
+push - at top
+pop- from top
+Елементите сочат не към следващия а към предходния
+Stack<T> = new Stack<>();
+Динамичен елемент
+pop- връща най горния елемнт и го маха peek() - същото само че не го маха
+
+4.Queues- First in First out
+Queue<T> = new Queue<>();
+pool- е като pop само че маха последния елемент а не първия като в Стек
+
+5.Deque- комбинация от двете Queue и Stack

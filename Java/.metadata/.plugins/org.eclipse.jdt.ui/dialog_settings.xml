@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<item value="java-8-openjdk-amd64" key="org.eclipse.jdt.ui.last.selected.project.jre"/>
 	<item value="1" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
 	<section name="ProblemSeveritiesConfigurationBlock">
 		<item value="false" key="expanded2"/>
 		<item value="false" key="expanded1"/>
@@ -34,6 +36,13 @@
 		<item value="325" key="DIALOG_X_ORIGIN"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
+		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="400" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_WIDTH"/>
+		<item value="528" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
 	<section name="JavaBuildConfigurationBlock">
 		<item value="false" key="expanded2"/>
 		<item value="false" key="expanded1"/>
@@ -44,6 +53,8 @@
 		<item value="false" key="Comments"/>
 		<item value="1" key="VisibilityModifier"/>
 		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="RenameInformationPopup">
 	</section>
 	<section name="BuildPathsPropertyPage">
 		<item value="3" key="pageIndex"/>

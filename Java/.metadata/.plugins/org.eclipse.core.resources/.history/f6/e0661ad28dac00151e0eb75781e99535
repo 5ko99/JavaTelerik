@@ -1,0 +1,14 @@
+package Recursion;
+
+public class Labirinte {
+	public static char[][] lab = {
+		    {' ', ' ', ' ', '*', ' ', ' ', ' '},
+		    {'*', '*', ' ', '*', ' ', '*', ' '},
+		    {' ', ' ', ' ', ' ', ' ', ' ', ' '},
+		    {' ', '*', '*', '*', '*', '*', ' '},
+		    {' ', ' ', ' ', ' ', ' ', ' ', 'е'},
+		};
+	public static void main(String[] args){
+		
+	}
+}

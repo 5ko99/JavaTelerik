@@ -1,0 +1,45 @@
+package Recursion;
+
+public class Labirinte {
+	public static char[][] lab = {
+		    {' ', ' ', ' ', '*', ' ', ' ', ' '},
+		    {'*', '*', ' ', '*', ' ', '*', ' '},
+		    {' ', ' ', ' ', ' ', ' ', ' ', ' '},
+		    {' ', '*', '*', '*', '*', '*', ' '},
+		    {' ', ' ', ' ', ' ', ' ', ' ', 'e'},
+		};
+	
+	public static void main(String[] args){
+		solve(0,0);
+	}
+	
+	private static void solve(int row, int col) {
+		//bottom
+		if(row<0 || row>lab[0].length){
+			return;
+		}
+		
+		if(col<0 || col>lab.length){
+			return;
+		}
+		
+		//mark spot
+		lab[row][col]='x';
+		
+		//go left
+		solve(row,col-1);
+		
+		//go up
+		solve(row-1,col);
+		
+		//go right
+		solve(row,col+1);
+		
+		//go bottom
+		solve(row+1,col);
+		
+		//unmark spot
+		lab[row][col]=' ';
+		
+	}
+}

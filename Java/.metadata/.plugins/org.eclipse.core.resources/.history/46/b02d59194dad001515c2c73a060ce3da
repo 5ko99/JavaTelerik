@@ -59,6 +59,5 @@ public class Labirinte {
 		//unmark spot
 		lab[row][col]=' ';
 		
-		
 	}
 }

@@ -57,7 +57,7 @@ public class Labirinte {
 		solve(row+1,col,steps);
 		
 		//unmark spot
-		lab[row][col]=' ';
+		lab[row][col]=' ';llars
 		
 		
 	}

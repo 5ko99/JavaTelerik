@@ -1,0 +1,19 @@
+Exeption Handaling
+
+try{
+	//Do some work than can raise an expetion
+}catch(IllegalArgimentExeption ex){
+	//Handle the caught exeption
+}
+ex.StackTrase - ти дава кода от грешката
+
+public void write() throws IOExeption
+така казваме че нашия метод хвърля IOExeption и който го използва трябва да го handlelne
+if (size==0){
+	throws EmptyStackExeption();
+}
+Така си хвърляме exeption
+
+finaly{
+//Този код ще се изпълни винаги защото Exeption прекратява работата на кода
+}

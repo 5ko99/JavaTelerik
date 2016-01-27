@@ -1,5 +1,0 @@
-package customers;
-
-public abstract class Individual extends Customer {
-
-}

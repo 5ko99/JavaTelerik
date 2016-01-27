@@ -1,6 +1,0 @@
-package Triangle;
-public class lengthsOfTwoSidesAndAngle {
-   public static double calc(double a,double b,double h){
-	   
-   }
-}

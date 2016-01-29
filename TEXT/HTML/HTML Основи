@@ -13,3 +13,25 @@ Atom plugiun emmet
 <hr> хоризонтална линия
 <strong>
 <p> параграф
+
+<ol> подреден списък
+<li></li> elment
+<ul> </ul> неподреден лист
+ul type=disc>
+    <li>Peca</li>
+    <li>Mitko</li>
+
+	<dl> Definition List
+	<dt> - елемнтите по на ляво
+	<dd> - елемент по на дясно
+	
+	Emmet trics
+	ul>li*5 + Tab
+	прави ul с 5 li
+	
+	<header </header>
+	<nav>
+	<aside>
+	<section>
+	<footer> 
+	Това са div само че са от HTML5 и търсачката разбира какво е това

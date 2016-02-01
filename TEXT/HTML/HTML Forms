@@ -1,0 +1,43 @@
+HTML Forms
+<form>
+name="Name" method="post/get едно от двете" action=path/to/some/script.php"
+
+Форма за регистрация/логин се прави с post заявка
+
+<form action="#" method="post">
+    Username:
+    <input type="text" name="username">
+    Password:
+    <input type="password" name="pass">
+    <input type="submit" name="submit" value="Submit">
+  </form>
+action там където ще ни препрати
+<textarea> - текстово поле като за коментар
+в w3 schools input types - и четеш 
+
+CheckBox
+type="checkbox"
+
+Радио бутоните трябва да са с едно име
+radiobutton
+type "radio"
+
+Без multiple не можем да избираме повече от 1
+<form action="index.html" method="post">
+  <select id="5" name="cars" multiple="multiple">
+    <option  selected="selected">Select a mark</option>
+
+    <option value="BWM"> BMW</option>
+    <option value="Opel"> Opel</option>
+    <option value="Toyota"> Toyota</option>
+  </select>
+</form>
+
+Ако добавим поле requierd=requierd е задължително
+Label там пишев в id на лабел трябва да е същото като на input
+
+Цифрови input type
+input range
+input number - за числа
+
+

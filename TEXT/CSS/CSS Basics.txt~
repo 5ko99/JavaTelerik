@@ -1,0 +1,16 @@
+<link href="style.css"
+   media="screen" title="no title" charset="utf-8" rel="stylesheet">
+
+Добавяне на CSS към HTML
+<style type=text/css></style>
+
+body * {
+  color: red;
+}
+p*{
+  color: purple;
+}
+
+можем и по id
+#idto {}
+.myclass

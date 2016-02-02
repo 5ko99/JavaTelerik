@@ -1,0 +1,17 @@
+<link href="style.css"
+   media="screen" title="no title" charset="utf-8" rel="stylesheet">
+
+Добавяне на CSS към HTML
+
+body * {
+  color: red;
+}
+p*{
+  color: purple;
+}
+
+можем и по id
+#idto {}
+.myclass
+
+Всичи елементи преди други елемент E ~ P

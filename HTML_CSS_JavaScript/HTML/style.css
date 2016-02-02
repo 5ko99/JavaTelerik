@@ -1,0 +1,23 @@
+body * {
+  color: red;
+}
+p{
+  color: purple;
+}
+#d{
+  color: blue;
+  cursor: context-menu;
+}
+
+select article h1: first-letter{
+font-family: sans-serif;
+color: red;
+}
+
+ li{
+  color: green;
+}
+body{
+  font-family: cursive;
+  background-color: brown;
+}

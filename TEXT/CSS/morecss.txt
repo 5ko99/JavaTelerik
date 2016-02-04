@@ -1,0 +1,16 @@
+font-style
+values: normal,italic,oblique
+
+text-decoration 
+values: none,underline,line-trough, overline
+
+text-align
+
+values : left,right,center, justify
+
+Правене на рамки
+border : 1px solid rec; бързо създаване
+
+background-image
+
+opacity: 0 to 1

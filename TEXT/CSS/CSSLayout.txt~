@@ -1,0 +1,12 @@
+width височина на block елемент задава се в px или в %
+можем и да слагаме min-width max-width
+ВАЖНО!
+Ако сложим width,height в проценти ще се намаляват като намаляме браузера
+има и за height min-height, max-height и т.н.
+
+overflow кащ се държи обекта когато нещо изкача от екрана
+възможности
+hidden,auto,visible,scroll
+
+display none не се рендерира
+display inline, block  да накараме блока да работи като инлине

@@ -7,6 +7,12 @@ p{
 #d{
   color: blue;
   cursor: context-menu;
+  width: 50%;
+  max-width: 70%;
+  min-width: 30%;
+  height: 50%;
+  max-height: 70%;
+  min-height: 30%;
 }
 
 select article h1: first-letter{
@@ -19,5 +25,22 @@ color: red;
 }
 body{
   font-family: cursive;
-  background-color: brown;
+  background-color: white;
+  text-align: justify;
+}
+
+#gei{
+  font-style: oblique;
+  text-decoration: underline;
+  color: pink;
+  text-align: inherit;
+  text-shadow: : 2px 2px 7px #000000;
+ font: stylesheet;
+ width: 50%;
+}
+
+div
+{
+  border: 20px solid green
+
 }

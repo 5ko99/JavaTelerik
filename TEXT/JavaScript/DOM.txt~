@@ -1,0 +1,5 @@
+var elem = document.getElementByID("some-id")
+var elem = document.getElementsByName("some-name")
+var elem = document.getElementsByTagName("img")
+
+и можем да достъпваме el чрез elem.text примерно

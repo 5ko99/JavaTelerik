@@ -1,0 +1,46 @@
+В html <script type=javascript>
+
+var name = "Petko Kamenov";
+var greeting = "Hellol, "+ name;
+alert(greeting);
+
+пишем <script> и си пише кода
+
+<script src="script.js" type="text/javascript"></script>
+Така се добавя html от външен файл
+
+Хубаво е javacript да се пише след края на html-ла в Body-то
+
+Създаване на функция
+function printMessage (message) {
+aleart(message);
+}
+
+извикване на fuction чрез бутон <button type="button" name="button" onclick="sayHelloToThisPerson('Pesho')">Click me</button>
+
+2.Основи на javascript
+В java script си има +,-,/,* и всичко а променливите не се пишат от какъв тип има и if else for while
+function като методи никъде не се казва какво връща функцията или
+ дали връща може а се ползва return
+
+console.log() с f12 можем да видим конзолата
+Масив се прави чрез
+var name = {d,5,dada,7} всякакви типове данни
+
+Масив обект
+var array = {
+  name: 'Evlogi',
+  lname: 'Georgiev',
+  age: 32
+};
+
+== сравнява дали е едно и същ литерала примерно стринг "9" е равно на инт 9
+=== равно вече стринга и инт ще каже че са си различи
+Конкретенацията е бърза
+
+3.Обект
+За да си зъдадем обект правим
+var option={};
+option.name = 'Petko';
+ето така можем да си добавяме промеливи към обекта и да достъпим
+option.name;

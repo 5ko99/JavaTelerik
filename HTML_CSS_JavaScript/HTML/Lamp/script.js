@@ -1,6 +1,6 @@
 function changeState(state){
 	var lamp = document.getElementById('lamp');
-	
+
 	lamp.src = 'lamp_' + state + '.png';
 }
  var flag = true;
@@ -21,6 +21,16 @@ function fun(){
  but.style.backgroundColor = 'green';
 }
 
-function click () {
-document.getElementById('c').innerHTML += 'clicked ';
+$('#add-btn').on('click',function(ev){
+	var $special = $('.special');
+	$special.next().addClass('special');
+	$special.removeClass();
+	var $s = $('.special');
+	printMessage($s.text());
+    
+	});
+
+function printMessage(text){
+	$('#m-list').first().append(text+' ');
 }
+

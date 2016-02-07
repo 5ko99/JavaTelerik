@@ -1,0 +1,35 @@
+jQuery.ajax(option)
+jQuery.getJSON(urs,succes)
+jQery.postJSON
+
+$.ajax({
+   url: endpointUrl,
+   rype: 'GIF',
+   timeout: 5000,
+   successs: function(data){//handle success}
+   error: function(err) { //handle error}
+
+Взимане на позиция
+
+var position = {};
+    navigator.geolocation.getCurrentPosition(function (data){ // това си идва от jQuery
+    position.longitude= data.coords.longitude;
+    position.latitude = data.coords.latitude;
+    
+    $.ajax({
+        url: 'http://api.openweathermap.org/data/2.5/weather?lat=' +position.latitude +'&lon=' +position.longitude +'&appid=44db6a862fba0b067b1930da0d769e98', //Взимаме отворено апи за звремето и даваме lat long
+        method : 'GET',
+        success: function(data){ // какво да направи ако успее
+            console.log(data);
+            var temp = data.main.temp;
+            temp = temp - 273.15;
+            temp = temp.toFixed(1);
+            var city = data.name;
+            $('#temp').text('Tempereture in '+city+' is: '+temp+'°C');
+        },
+        error: function(er){ //при грешка
+            console.log(er);
+        }
+    });
+
+});

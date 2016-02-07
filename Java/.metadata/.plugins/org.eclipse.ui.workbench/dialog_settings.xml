@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="374" key="DIALOG_X_ORIGIN"/>
-		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="172" key="DIALOG_X_ORIGIN"/>
+		<item value="49" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="462" key="dialogHeight"/>
-		<item value="835" key="dialogWidth"/>
+		<item value="450" key="dialogHeight"/>
+		<item value="823" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="1"/>
 			<item value="3"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.jdt.debug.ui.jreProfiles)"/>
 			<item value="org.eclipse.ui.window.preferences"/>
 		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textArray">
+			<item value="jre"/>
 			<item value="pe"/>
 			<item value="pref"/>
 			<item value="pre"/>

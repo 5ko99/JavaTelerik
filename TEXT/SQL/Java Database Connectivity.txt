@@ -1,0 +1,27 @@
+Java Database Connectivity
+
+За да направим библиотеката на Eclipse
+run->run configuration-> java aplication -> call path-> add externel jar-> D:\app\pepm9\product\11.2.0\dbhome_1\jdbc\lib\ojdbc6.jar
+
+//Register JBDC driver
+Class.forName("oracle.jdbc.driver.OracleDriver");
+improt java.sql.connection;
+import java.sql.statment;
+or
+java.sql.*;
+
+Connection conn = DriverManager.getConnection(db_irl:local:dbname, user, pass);
+port=1521
+localhost;
+conn.close();
+
+next
+
+Statement statement = null;
+statement = conn.createStatement();
+string sqlQuery = "select * from town";
+statement.executeQuery(sqlQuery);
+
+while(result.next()){
+	result.getString(int columnIndex(column label))
+}

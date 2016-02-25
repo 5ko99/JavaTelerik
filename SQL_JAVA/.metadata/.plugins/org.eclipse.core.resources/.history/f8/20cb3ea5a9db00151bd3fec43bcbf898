@@ -1,0 +1,16 @@
+package db_java;
+import java.sql.*;
+public class sql_test {
+	
+	public static void main(String[] args){
+		
+		
+		try{
+			Connection conn = DriverManager.getConnection("locallhost:1521:ExampleDB", "petko", "system");
+		}
+		catch(Exception e){
+			e.printStackTrace();
+			System.out.println(e.getMessage());
+		}
+	}
+}

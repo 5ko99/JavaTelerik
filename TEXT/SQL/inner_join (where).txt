@@ -1,0 +1,20 @@
+Select CONTINENT_NAME as CONTINENT, country_name as COUNTRY
+from COUNTRy
+inner join CONTINENT on Country.continent_id= Continent.continent_id;
+
+SELECT e.EmployeeID, e.LastName, e.DepartmentID, 
+       d.DepartmentID, d.Name AS DepartmentName
+FROM Employees e, Departments d 
+WHERE e.DepartmentID = d.DepartmentID
+
+
+
+Select country_name as COUNTRY, CONTINENT_NAME as CONTINENT, town_name as town, ADRESS_TEXT as ADRESS, first_name as Name, second_name 
+as FatherName, last_name as Family
+from COUNTRY
+inner join CONTINENT on Country.continent_id= Continent.continent_id
+inner join TOWN on town.COUNTRY_ID = COUNTRY.COUNTRY_ID
+inner join ADRESS on adress.town_id = TOWN.TOWN_ID
+inner join PERSON on person.adress_id = adress.adress_id;
+
+Резултата обединява таблиците

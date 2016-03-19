@@ -1,0 +1,21 @@
+package db_java;
+import java.sql.*;
+public class sql_test {
+	
+	public static void main(String[] args){
+		try{
+			Class.forName("oracle.jbdc.driver.OracleDriver");
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			System.out.println(e.getMessage());
+		};
+		tyr{
+			Connection conn = DriverManager.getConnection("localhost:1521:db1", "petko", "system");
+		}
+		catch(Exception e){
+			e.printStackTrace();
+			System.out.println(e.getMessage());
+		};
+	}
+}

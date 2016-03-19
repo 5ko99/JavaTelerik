@@ -1,0 +1,31 @@
+DROP TABLE list_customers PURGE; Махане на таблица
+SELECT ПОЛЕ FROM ТАБЛИЦА WHERE НЯКАКВО УСЛОВИЕ
+
+1.Видове команди в SQL
+    Data Manipulation Language (DML)
+        SELECT, INSERT, UPDATE, DELETE
+    Data Definition Language (DDL)
+        CREATE, DROP, ALTER
+        GRANT, REVOKE
+
+
+Избиране на неща от таблицата employers		
+SELECT FirstName, LastName, JobTitle FROM Employees
+
+Избери всички от project където полето StartDate = '1-JAN-06'
+SELECT * FROM Projects WHERE StartDate = '1-JAN-06'
+
+Вкарваме в Projects (от полетата име, start date)
+INSERT INTO Projects(Name, StartDate)
+стойностите ('Introduction to SQL Course' и дата)
+VALUES('Introduction to SQL Course', '1-JAN-06')
+
+Променяме датите
+UPDATE Projects
+SET EndDate = '31-AUG-06'
+WHERE StartDate = '1-JAN-06'
+
+изтриваме от таблиците
+DELETE FROM Projects
+WHERE StartDate = '1-JAN-06'
+

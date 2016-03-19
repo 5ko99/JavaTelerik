@@ -1,0 +1,50 @@
+package db_java;
+import java.sql.*;
+public class sql_test {
+	
+	public static void main(String[] args){
+		try{
+			Class.forName("oracle.jdbc.OracleDriver");
+		}
+		catch(Exception e){
+			e.printStackTrace();
+			System.out.println(e);
+		}
+		
+			Connection connection = null;
+			try {
+				connection = DriverManager.getConnection(
+					"jdbc:oracle:thin:@localhost:1521:db1","evlogi","system");
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		
+			Statement statement = null;
+			try {
+				statement = connection.createStatement();
+			} catch (SQLException e1) {
+				e1.printStackTrace();
+			}
+			
+			String sqlQuery = "select * from town";
+		
+			
+				
+			
+			try {
+				ResultSet result = statement.executeQuery(sqlQuery);
+				while(result.next()){
+					String townName = result.getString("town_name");
+					System.out.println(townName);
+				}
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			
+			try {
+				connection.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+	}
+}

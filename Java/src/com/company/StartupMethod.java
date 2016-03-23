@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.Math.Mathemathic;
+
 import java.util.Scanner;
 
 import static com.company.Convert.Binar.ToBinar;
@@ -13,7 +15,6 @@ public class StartupMethod {
         int a;
         int result;
         Scanner scanner = new Scanner(System.in);
-
         while(true){
             System.out.print("Enter 0 to convert from decimal to binar \n or enter 1 to convert from binar to decimal: \n Choose=");
             a=scanner.nextInt();

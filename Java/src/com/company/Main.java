@@ -1,4 +1,6 @@
 package com.company;
+import com.company.Math.Mathemathic;
+
 import java.util.Scanner;
 
 import static com.company.Convert.Binar.*;
